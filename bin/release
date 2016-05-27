@@ -5,7 +5,7 @@
 cat << EOF
 ---
 addons:
-  - shared-database:5mb
+  - heroku-postgresql
 config_vars:
   PATH: /usr/bin:/bin
   CCL_DEFAULT_DIRECTORY: ccl
